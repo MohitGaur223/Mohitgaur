@@ -1,34 +1,20 @@
 
 <!DOCTYPE html>
-<style>
-    .circle {
-  background: #456BD9;
-  border-radius: 100%;
-  color: #fff;
-  display: block;
-  width: 25%;
-  overflow: visible;
-  padding-top: 25%;
-  position: relative;
+    <style>
+        .col-sm
+        {
 
-}
-
-.circle-content {
-  color:black;
-  align-items: left;
-  height: 100%;
-  right: 0%;
-  position: absolute;
-  text-align: left;
-  top: 50%;
-  min-width: 260%;
-}
-
-    .grad {
-        background-image: radial-gradient(circle, #fad390, #f6b93b, #e58e26);
+            display: flex;
+            min-width: 275px;
+            justify-content: space-evenly;
+            animation-delay: 0.5s;
+       animation-name: goleft;
+       animation-duration:0.5s;
+      animation-iteration-count: 1;
+            
         }
 
-</style>
+    </style>
 <html>
 <head>
 <title>Mohit Gaur</title>
@@ -46,22 +32,18 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-<div class="text-center" style="max-width:1440px;margin:0px auto;font-size:20px">
-<div class="row text-center" style="padding-top:15px;margin:0px;">
-<div class="col-sm-6">
-    <div class="row circle grad" style="margin-left:60%;margin-top:15%;font-size:35px;font-family:arial">
-        <div class="circle-content" style="white-space: nowrap;">
-        Hi I'm Mohit Gaur
-        </div>
-    </div>
-    <div class="row" style="font-size:20px;padding-top:20px;padding-bottom:20px;margin-left:10px">"Tech explorer with good problem solving skills and always curious to learn new things"
-</div>
+<!-- Body...... -->
+      <div class="container" style="padding-top:70px">
+        <div class="row">
+            <div class="col-sm">
+                <img class="img" src="/assets/2.gif" style="max-width: 90%;">
+            </div>
+            <div class="col-sm">
+                <img src="/assets/pyth.gif" style="max-width: 100%;width: 500px;">
+            </div>
 
-</div>
-<div class="col-sm-6" style="padding:2px;">
-<img src="/assets/Pytho.png"  style="max-width:90%;"/>
-</div>
-</div>
-</div>
+        </div>
+        
+    </div>
 </body>
 </html>

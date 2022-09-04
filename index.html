@@ -1,59 +1,55 @@
-<!DOCTYPE html>
-<style type="text/css">
-    #radius-shape-1 {
-      height: 10vw;
-      width: 10vw;
-      top: -6vw;
-      left: -13vw;
-      background: radial-gradient(#b4990f, #ffd609);
-
-
-
-}
-</style>
+<!doctype html>
 <html lang="en">
-<head>
-
-    <meta charset="UTF-8">
-    <link rel = "icon" width="100%" href ="/assets/mg2.png"
-        type = "image/x-icon">
-    <title>Mohit Gaur</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
-<body>
-<div class="navbar-fixed">
-    <nav class="z-depth-0">
-    <div class="nav-wrapper white">
-      <a target="tw" href="deshbord.html" class="brand-logo"><img src="/assets/MG1.png" style="margin-left:5vw;margin-top:4%;height:35px"></a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger" style="color:black"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down" style="margin-right:5vw;">
-        <li><a target="tw" href="education.html" style="color:black;font-family:'Arial';">Education</a></li>
-        <li><a href="badges.html" style="color:black;font-family:'Arial';">Courses</a></li>
-        <li><a href="collapsible.html" style="color:black;font-family:'Arial';">Projects</a></li>
-        <li><a href="mobile.html" style="color:black;font-family:'Arial';">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-</div>
-  <ul class="sidenav" id="mobile-demo">
-    <li><a href="sass.html" style="font-family:'Arial';">Education</a></li>
-    <li><a href="badges.html" style="font-family:'Arial';">Courses</a></li>
-    <li><a href="collapsible.html" style="font-family:'Arial';">Projects</a></li>
-    <li><a href="mobile.html" style="font-family:'Arial';">Contact</a></li>
-  </ul>
+  <body>
+    
+    <!-- NAV BAR..... -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-white">
+        <div class="container-fluid">
+          <a target="tw" href="deshbord.html" class="navbar-brand"  style="padding-left:2%"><img src="/assets/MG1.png" width="90rem" ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: right;padding-right: 3%;">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="tw" href="education.html">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Certification</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- .....NAV BAR -->
 
-<iframe src="deshbord.html" scrolling="no" frameborder="0" name="tw" style="width:100%;min-height:88.4vh"></iframe>
+    <iframe src="deshbord.html" scrolling="no" frameborder="0" name="tw" style="width:100%;height:50rem;"></iframe>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js">
-</script>
-<script>
-    $(document).ready(function(){
-        $('.sidenav').sidenav();
-  });
-</script>
-</body>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    
+  </body>
+
 </html>
+
