@@ -15,11 +15,7 @@
             display: flex;
             min-width: 275px;
             justify-content: space-evenly;
-            animation-delay: 0.5s;
-            animation-name: goleft;
-            animation-duration:0.5s;
-            animation-iteration-count: 1;
-            margin-top: 80px;
+            margin-top: 40px;
             
         }
         .col-sm1
@@ -28,10 +24,6 @@
             display: flex;
             min-width: 275px;
             justify-content: space-evenly;
-            animation-delay: 0.5s;
-            animation-name: goleft;
-            animation-duration:0.5s;
-            animation-iteration-count: 1;
             
         }
         .card-section{
@@ -44,6 +36,41 @@
     </style>
 </head>
 <body>
+
+<!-- NAV BAR..... -->
+<nav class="navbar navbar-expand-lg sticky-top fixed-top bg-white">
+  <div class="container-fluid">
+    <a href="index.html" class="navbar-brand"  style="padding-left:2%"><img src="./assets/MG1.png" width="90rem" ></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: right;padding-right: 3%;">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" target="tw" href="education.html">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Certification</a>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li> -->
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- .....NAV BAR -->
+
 <div class="card-section">
     <div class="contianer">
         <div class="row">
@@ -120,6 +147,7 @@
     </div>
 </div>
 
+<iframe src="" id="myiframe" scrolling="no" frameborder="0" name="tw" style="min-width:100%;"></iframe>
 
 <!-- Modal1 -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -200,6 +228,7 @@
 
 
 
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" ></script>
     <!-- <script>
@@ -235,5 +264,7 @@
           }
         });
         </script>
+        <script src="./js/mainpage.js"></script>
+        <script src="./js/main.js"></script>
   </body>
 </html>
