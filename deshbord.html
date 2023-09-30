@@ -1,27 +1,28 @@
-
 <!DOCTYPE html>
-    <style>
-        .col-sm
-        {
+<style>
+    .col-sm {
+        display: flex;
+        min-width: 275px;
+        justify-content: space-evenly;
+        animation-delay: 0.5s;
+        animation-name: goleft;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+    }
 
-            display: flex;
-            min-width: 275px;
-            justify-content: space-evenly;
-            animation-delay: 0.5s;
-       animation-name: goleft;
-       animation-duration:0.5s;
-      animation-iteration-count: 1;
-            
-        }
 
-    </style>
+    .chr {
+        border: 1.5px solid #e1bcfa;
+
+    }
+</style>
 <html>
+
 <head>
-<title>Mohit Gaur</title>
-<meta charset="UTF-8">
+    <title>Mohit Gaur</title>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -31,20 +32,105 @@
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-<!-- Body...... -->
-      <div class="container" style="padding-top:10px">
+    <div class="container" style="padding-top: 10px">
         <div class="row">
             <div class="col-sm">
-                <img class="img" src="./assets/2.gif" style="max-width: 90%;">
+                <img class="img" src="./assets/2.gif" style="max-width: 90%;" loading="lazy" id="image1">
             </div>
             <div class="col-sm">
-                <img src="./assets/img.jpeg" style="max-width: 100%;width: 500px;">
+                <img src="./assets/profile.gif" style="max-width: 100%; width: 500px;" loading="lazy" id="image2">
+            </div>
+        </div>
+
+        <div
+            style="text-align: center; padding: 15px; font-size: x-large; font-family: Open Sans; font-weight:600; color:#e2b7f6;">
+            Explore My Creations
+        </div>
+        <div style="display:flex; flex-direction: column; justify-content: center; align-items:center ;
+        padding: 10px;">
+            <div class="card mb-3" style="max-width: 840px; padding: 10px;">
+                <div class="row g-0">
+                    <div class="col-md-4 ">
+                        <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
+                            <img src="./assets/poj1.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Calorie Cloud</h5>
+                            <p class="card-text" style="text-align: justify;">"CalorieCloud" is a fitness management
+                                portal with two sections: user and admin. Users can register and log in to establish
+                                fitness goals such as weight gain or loss. They can input workouts and exercises,
+                                monitor their progress with visual graphs, and receive weekly nutrition recommendations
+                                for effective weight management. This project encompasses several additional
+                                functionalities. For its development, I employed Java and Spring Boot for the backend,
+                                along with MySQL. On the frontend, I utilized JavaScript, React.js, HTML, CSS, and
+                                Bootstrap to ensure a comprehensive and feature-rich experience.</p>
+                            <p class="card-text">
+                            <div style="height: 100%;display: flex;flex-direction: row;justify-content: left ;">
+                                <div>
+                                    <a href="https://github.com/gaur-mohit/CalorieCloud.git" target="_blank"
+                                        class="btn btn-outline-info">GitHib Repo | <i class="fa fa-link"></i></a>
+                                </div>
+                                <div style="margin-left: 10px;">
+                                    <a href="https://caloriecloud.netlify.app/" target="_blank"
+                                        class="btn btn-outline-info">Demo | <i class="fa fa-link"
+                                            aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
+            <div class="card mb-3" style="max-width: 840px; padding: 10px;margin-top: 10px;">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Med Assist</h5>
+                            <p class="card-text" style="text-align: justify;">
+                                MedAssist is a medical website designed to facilitate seamless interactions between
+                                patients and healthcare professionals. Patients can easily select a doctor based on
+                                their specific medical concerns. To assess the patient's medical condition accurately,
+                                we've implemented a comprehensive survey. After evaluating the patient's responses, our
+                                system enables doctors to provide precise prescriptions. If necessary, patients can
+                                further consult with their designated healthcare providers. The website was expertly
+                                crafted using a suite of tools and languages, including Django, Python, HTML, CSS,
+                                JavaScript, and SQL.</p>
+                            <p class="card-text">
+                            <div style="height: 100%;display: flex;flex-direction: row;justify-content: left ;">
+                                <div>
+                                    <a href="#" target="_blank" class="btn btn-outline-info">GitHib Repo | <i
+                                            class="fa fa-link"></i></a>
+                                </div>
+                                <div style="margin-left: 10px;">
+                                    <a href="https://drive.google.com/file/d/1BnCR2j8yW9D5SNfhGt3kSE_pl_qbW0UP/view?usp=drive_link"
+                                        target="_blank" class="btn btn-outline-info">Demo | <i class="fa fa-link"
+                                            aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
+                            <img src="./assets/icon4.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
-        
+
     </div>
     <script src="./js/contentpage.js"></script>
+    <script>
+
+    </script>
 </body>
+
 </html>
